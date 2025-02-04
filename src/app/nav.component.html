@@ -1,0 +1,24 @@
+<div class="navbar-container" style="width: 100%; background-color: #007bff;">
+  <div class="navbar navbar-expand-sm navbar-dark" style="padding: 10px 20px; width: 100%; display: flex; align-items: center;">
+    <!-- RoomLink on the far left -->
+    <span class="navbar-brand" style="font-size: 2.5rem; color: white; margin-left: 0;">
+      RoomLink
+    </span>
+
+    <!-- Navbar items aligned to the left -->
+    <ul class="navbar-nav" style="display: flex; list-style-type: none; padding-left: 20px; margin-left: 0;">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/']"
+           style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #007bff; color: white; text-decoration: none; border-radius: 15px; font-size: 1.2rem;">
+          Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/rooms']"
+           style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #007bff; color: white; text-decoration: none; border-radius: 15px; font-size: 1.2rem;">
+          Book Rooms
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

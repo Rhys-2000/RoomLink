@@ -2,15 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { RouterModule } from '@angular/router';
 
-/**
-*The HomeComponent provides a landing screen and navigation to the user
-*
-*/
+
 @Component ({
-  selector: 'home',
+  selector: 'room1',
   standalone: true,
   imports: [RouterOutlet, RouterModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './room1.component.html',
+  styleUrl: './room1.component.css'
 })
-export class HomeComponent { }
+export class Room1Component { }
